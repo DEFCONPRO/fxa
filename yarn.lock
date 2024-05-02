@@ -32989,6 +32989,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ejs@npm:^3.1.10":
+  version: 3.1.10
+  resolution: "ejs@npm:3.1.10"
+  dependencies:
+    jake: ^10.8.5
+  bin:
+    ejs: bin/cli.js
+  checksum: ce90637e9c7538663ae023b8a7a380b2ef7cc4096de70be85abf5a3b9641912dde65353211d05e24d56b1f242d71185c6d00e02cb8860701d571786d92c71f05
+  languageName: node
+  linkType: hard
+
 "ejs@npm:^3.1.6":
   version: 3.1.6
   resolution: "ejs@npm:3.1.6"
@@ -36951,7 +36962,7 @@ __metadata:
   dependencies:
     audit-filter: 0.5.0
     client-sessions: 0.8.x
-    ejs: ^3.1.6
+    ejs: ^3.1.10
     eslint: ^7.32.0
     express: ^4.19.2
     fxa-shared: "workspace:*"
